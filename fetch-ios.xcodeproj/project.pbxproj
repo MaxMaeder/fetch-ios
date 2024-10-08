@@ -11,6 +11,7 @@
 		AF06970C2CB59412008223D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF06970B2CB59412008223D8 /* ContentView.swift */; };
 		AF06970E2CB59413008223D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF06970D2CB59413008223D8 /* Assets.xcassets */; };
 		AF0697112CB59413008223D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0697102CB59413008223D8 /* Preview Assets.xcassets */; };
+		AF0697182CB59577008223D8 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0697172CB59577008223D8 /* DataFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AF06970B2CB59412008223D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF06970D2CB59413008223D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF0697102CB59413008223D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF0697172CB59577008223D8 /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				AF06970B2CB59412008223D8 /* ContentView.swift */,
 				AF06970D2CB59413008223D8 /* Assets.xcassets */,
 				AF06970F2CB59413008223D8 /* Preview Content */,
+				AF0697172CB59577008223D8 /* DataFetcher.swift */,
 			);
 			path = "fetch-ios";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF0697182CB59577008223D8 /* DataFetcher.swift in Sources */,
 				AF06970C2CB59412008223D8 /* ContentView.swift in Sources */,
 				AF06970A2CB59412008223D8 /* fetch_iosApp.swift in Sources */,
 			);
